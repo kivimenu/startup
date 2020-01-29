@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="style.css">
     <!-- Style dependencies -->
     <link href="https://unpkg.com/normalize.css@^7.0.0" rel="stylesheet" />
+    <!-- grid icin -->
+    <link href="https://unpkg.com/blueprint-css@3.1.1/dist/blueprint.min.css" rel="stylesheet" />
     <!-- Blueprint stylesheets -->
     <link href="https://unpkg.com/@blueprintjs/icons@^3.4.0/lib/css/blueprint-icons.css" rel="stylesheet" />
     <link href="https://unpkg.com/@blueprintjs/core@^3.10.0/lib/css/blueprint.css" rel="stylesheet" />
@@ -17,7 +19,7 @@
 
 <body>
     <!-- burasi navbar -->
-    <nav class="kivinav bp3-navbar bp3-dark" style="padding: 1% 0 4% 0; box-shadow: none; background-color: #1b1f25;"> 
+    <nav  class="kivinav bp3-navbar bp3-dark" style="padding: 1% 0 4% 0; box-shadow: none; background-color: #1b1f25;"> 
         <div style="margin: 0 auto; width: 65%;">
             <!-- ADD ME -->
             <div class="navhead bp3-navbar-group bp3-align-left">
@@ -34,6 +36,7 @@
             </div>
         </div>
     </nav>
+       <!-- burasi navbar END-->
     <div class="content">
         <h1 style="color: rgb(61, 204, 145);">Tanıtım</h1>
         <h1 class="text-large">
@@ -43,9 +46,8 @@
         <br/>
         <br/>
         <button type="button" class="bp3-button bp3-intent-success" style="width: 250px; height: 60px; font-size: 17px">Demo Talebinde Bulunun!</button>
-        <img class="conimage" src="https://www.agave.com/static/9b24d36a8c786cafebdf3290c3be7bd2/cb6e2/people1.png" alt="image">
+        <img bp="grid 4" class="conimage" src="/images/people2.png" alt="image">
     </div>
-    <!-- burasi navbar END-->
     <!-- Blueprint dependencies -->
     <script src="https://unpkg.com/classnames@^2.2"></script>
     <script src="https://unpkg.com/dom4@^1.8"></script>
