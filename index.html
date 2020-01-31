@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Kivi Menu - The simplest in restaurant business</title>
 
     <link rel="icon" href="images/logowhite.png" type="image/gif" sizes="16x16">
@@ -11,7 +11,8 @@
     <!-- Style dependencies -->
     <link href="https://unpkg.com/normalize.css@^7.0.0" rel="stylesheet" />
     <!-- grid icin -->
-    <link href="https://unpkg.com/blueprint-css@3.1.1/dist/blueprint.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
+
     <!-- Blueprint stylesheets -->
     <link href="https://unpkg.com/@blueprintjs/icons@^3.4.0/lib/css/blueprint-icons.css" rel="stylesheet" />
     <link href="https://unpkg.com/@blueprintjs/core@^3.10.0/lib/css/blueprint.css" rel="stylesheet" />
@@ -19,34 +20,49 @@
 
 <body>
     <!-- burasi navbar -->
-    <nav  class="kivinav bp3-navbar bp3-dark" style="padding: 1% 0 4% 0; box-shadow: none; background-color: #1b1f25;"> 
-        <div style="margin: 0 auto; width: 65%;">
+    <nav class="kivinav bp3-navbar bp3-dark" style="padding: 1% 0 4% 0; box-shadow: none; background-color: #1b1f25;">
+        <div  style="margin: 0 auto; width: 65%;">
             <!-- ADD ME -->
             <div class="navhead bp3-navbar-group bp3-align-left">
                 <img style="width: 24px; margin: 10px" src="/images/logowhite.png" alt="logowhite">
                 <div class="bp3-navbar-heading">Kivi Menu</div>
             </div>
             <div class="bp3-navbar-group bp3-align-right">
-                <button onclick="window.location.href = 'iletisim.html';" class="bp3-button bp3-minimal" style="margin: 10px; color: rgb(61, 204, 145);">Hemen Ulasin?</button>
+                <button onclick="window.location.href = 'iletisim.html';" class="bp3-button bp3-minimal"
+                    style="margin: 10px; color: rgb(61, 204, 145);">Hemen Ulasin?</button>
                 <span class="bp3-navbar-divider"></span>
-                <button onclick="window.location.href = 'index.html';"  class="bp3-button bp3-minimal bp3-icon-home" style="margin: 10px;">Anasayfa</button>
-                <button onclick="window.location.href = 'fiyatlandirma.html';"  class="bp3-button bp3-minimal bp3-icon-shopping-cart" style="margin: 10px;">Fiyatlandirma</button>
-                <button onclick="window.location.href = 'urun.html';"  class="bp3-button bp3-minimal bp3-icon-shop" style="margin: 10px;">Urun</button>
-                <button onclick="window.location.href = 'sirket.html';"  class="bp3-button bp3-minimal bp3-icon-predictive-analysis" style="margin: 10px;">Sirket</button>
+                <button onclick="window.location.href = 'index.html';" class="bp3-button bp3-minimal bp3-icon-home"
+                    style="margin: 10px;">Anasayfa</button>
+                <button onclick="window.location.href = 'fiyatlandirma.html';"
+                    class="bp3-button bp3-minimal bp3-icon-shopping-cart" style="margin: 10px;">Fiyatlandirma</button>
+                <button onclick="window.location.href = 'urun.html';" class="bp3-button bp3-minimal bp3-icon-shop"
+                    style="margin: 10px;">Urun</button>
+                <button onclick="window.location.href = 'sirket.html';"
+                    class="bp3-button bp3-minimal bp3-icon-predictive-analysis" style="margin: 10px;">Sirket</button>
             </div>
         </div>
     </nav>
-       <!-- burasi navbar END-->
+    <!-- burasi navbar END-->
+    
     <div class="content">
-        <h1 style="color: rgb(61, 204, 145);">Tanıtım</h1>
-        <h1 class="text-large">
-            Isletmeniz Icin Ayricalık
-        </h1>
-        <p class="bp3-text-muted">Vakit, nakittir; Hızlı işlem, Hızlı Sipariş ve Sıfır karmaşıklık. Kivi Menu ile Tanışın!</p>
-        <br/>
-        <br/>
-        <button type="button" class="bp3-button bp3-intent-success" style="width: 250px; height: 60px; font-size: 17px">Demo Talebinde Bulunun!</button>
-        <img bp="grid 4" class="conimage" src="/images/people2.png" alt="image">
+
+        <div class="row center-xs end-sm start-lg">
+            <div class="col-xs-6">
+                <div class="box">
+                    <h1 style="color: rgb(61, 204, 145);">Tanıtım</h1>
+                    <h1 class="text-large">
+                        Isletmeniz Icin Ayricalık
+                    </h1>
+                    <p class="bp3-text-muted">Vakit, nakittir; Hızlı işlem, Hızlı Sipariş ve Sıfır karmaşıklık. Kivi Menu ile
+                        Tanışın!</p>
+                    <br />
+                    <br />
+                    <button type="button" class="bp3-button bp3-intent-success"
+                        style="width: 250px; height: 60px; font-size: 17px">Demo Talebinde Bulunun!</button>
+                    <img  bp="grid 4" class="conimage" src="/images/people2.png" alt="image">
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Blueprint dependencies -->
     <script src="https://unpkg.com/classnames@^2.2"></script>
