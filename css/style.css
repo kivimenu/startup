@@ -8180,14 +8180,8 @@ h1, h2, h3, h4, h5,
       position: relative;
       top: 0; } }
   .ftco-navbar-light .navbar-brand {
-    background-image: url(/images/logowhite.png);
-    position: relative;
-    float: left;
-    width: 70px;
-    height: 44px;
-    background-position: 51% 67%;
-    background-repeat: no-repeat;
-    background-size: cover }
+    color: #fff;
+  }
     .ftco-navbar-light .navbar-brand:hover {
       color: #000; }
     @media (max-width: 991.98px) {
@@ -8294,7 +8288,7 @@ h1, h2, h3, h4, h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #f28f1f !important;
+    background: #1b1f25 !important;
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1); }
     @media (max-width: 991.98px) {
@@ -8343,7 +8337,7 @@ h1, h2, h3, h4, h5,
     .ftco-navbar-light.scrolled .nav-link {
       padding-top: 0.9rem !important;
       padding-bottom: 0.9rem !important;
-      color: #000 !important; }
+      color: #fff !important; }
       .ftco-navbar-light.scrolled .nav-link.active {
         color: rgb(61, 204, 145);
  !important; }
@@ -8357,14 +8351,7 @@ h1, h2, h3, h4, h5,
       -o-transition: .3s all ease-out;
       transition: .3s all ease-out; }
     .ftco-navbar-light.scrolled .navbar-brand {
-      background-image: url(/images/logogreen.png);
-      position: relative;
-      float: left;
-      width: 70px;
-      height: 44px;
-      background-position: 51% 67%;
-      background-repeat: no-repeat;
-      background-size: cover
+      color: #fff;
     }
 
 .navbar-brand {
@@ -9038,12 +9025,12 @@ textarea.form-control {
   font-size: 16px;
   padding: 5em 0;
   padding-bottom: 3em;
-  background: #421b9b; }
+  background: #161a1f; }
   .ftco-footer .ftco-footer-logo {
     text-transform: uppercase;
     letter-spacing: .1em; }
   .ftco-footer .ftco-footer-widget.bg-primary {
-    background: #5423c6 !important; }
+    background: #1b1f25 !important; }
   .ftco-footer .ftco-footer-widget h2 {
     font-weight: normal;
     color: #fff;
