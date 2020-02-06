@@ -8183,7 +8183,7 @@ h1, h2, h3, h4, h5,
     color: #fff;
   }
     .ftco-navbar-light .navbar-brand:hover {
-      color: #000; }
+      color: #41bb8b; }
     @media (max-width: 991.98px) {
       .ftco-navbar-light .navbar-brand {
         color: #fff; } }
@@ -8502,13 +8502,13 @@ h1, h2, h3, h4, h5,
   font-weight: 700 !important;
   letter-spacing: 2px; }
   .slider-text .breadcrumbs span {
-    color: rgba(0, 0, 0, 0.7); }
+    color: rgb(234, 223, 212); }
     .slider-text .breadcrumbs span a {
-      color: #000; }
+      color: rgb(234, 223, 212); }
 
 .slider-text .bread {
   font-weight: 900;
-  color: #000 !important; }
+  color: rgb(234, 223, 212) !important; }
 
 .bg-light {
   background: #1b1f25 !important;
